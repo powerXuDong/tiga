@@ -1,6 +1,6 @@
 // import { stringify } from 'qs';
 
-const HOST = "http://121.43.50.59:7001";
+const HOST = "https://www.chengxudong.com/asia";
 
 const pathMap: Record<string, string> = {
 	'登录': '/login',
@@ -10,6 +10,8 @@ const pathMap: Record<string, string> = {
 	'选美列表': '/get/contestants/list',
 
 	'投票': '/vote/:contestant_id',
+
+	'获取OSS签名': '/oss/sign',
 };
 
 // 处理url上的参数

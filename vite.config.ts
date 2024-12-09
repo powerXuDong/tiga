@@ -8,7 +8,10 @@ import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/beauty/',
+  base: '/',
+  server: {
+    host: '0.0.0.0', // 监听所有地址
+  },
   plugins: [
     vue(),
     vueJsx(),

@@ -13,6 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "ali-oss": "^6.22.0",
     "ant-design-vue": "4.x",
     "pinia": "^2.1.7",
     "qs": "^6.11.2",
